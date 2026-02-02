@@ -1,160 +1,72 @@
-📊 Customer Behavior Analysis
-📌 Project Overview
+# 📊 Customer Behavior Analysis
 
-The Customer Behavior Analysis project focuses on analyzing customer transaction data to uncover patterns in purchasing behavior, preferences, and engagement.
-The insights derived from this analysis help businesses make data-driven decisions related to marketing strategies, customer retention, revenue growth, and subscription optimization.
+## 📌 Project Overview
+The Customer Behavior Analysis project focuses on analyzing customer transaction data to uncover patterns in purchasing behavior, preferences, and engagement. The insights support data-driven business decisions related to marketing optimization, customer retention, and revenue growth.
 
-This project combines Python, SQL, and Power BI to perform end-to-end data analysis and visualization.
+This project uses Python, SQL, and Power BI for end-to-end data analysis and visualization.
 
-🧾 Dataset Description
+---
 
-Total Records: 3,900 customer transactions
+## 🧾 Dataset Description
+- Total Records: 3,900 customer transactions  
+- Total Features: 18  
+- Missing Values: Review Rating column (handled during preprocessing)
 
-Total Features: 18
+### Dataset Includes:
+**Customer Demographics**
+- Age, Gender, Location  
 
-Missing Values:
+**Product Details**
+- Item Purchased, Category, Size, Color, Season  
 
-Review Rating column contains 37 missing values (handled during preprocessing)
+**Transaction & Sales Data**
+- Purchase Amount (USD), Payment Method, Shipping Type, Discount Applied, Promo Code Used  
 
-Dataset Includes:
+**Customer Behavior**
+- Previous Purchases, Frequency of Purchases, Subscription Status, Review Rating  
 
-Customer Demographics
+---
 
-Age
+## 🛠️ Tools & Technologies
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- SQL
+- Power BI
+- Jupyter Notebook
+- Git & GitHub
 
-Gender
+---
 
-Location
+## 🔍 Exploratory Data Analysis
+- Data cleaning and preprocessing
+- Handling missing values using median imputation
+- Feature engineering (age groups and purchase frequency)
+- Removed redundant columns
 
-Product Details
+---
 
-Item Purchased
+## 🧮 Data Analysis Using SQL
+- Revenue analysis by gender and age group
+- Subscription vs non-subscription comparison
+- High-spending discount customers
+- Product performance and review ratings
+- Customer segmentation (New, Returning, Loyal)
+- Shipping type and discount effectiveness analysis
 
-Category
+---
 
-Size
-
-Color
-
-Season
-
-Transaction & Sales Data
-
-Purchase Amount (USD)
-
-Payment Method
-
-Shipping Type
-
-Discount Applied
-
-Promo Code Used
-
-Customer Behavior
-
-Previous Purchases
-
-Frequency of Purchases
-
-Subscription Status
-
-Review Rating
-
-🛠️ Tools & Technologies
-
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-SQL (Data querying & business analysis)
-
-Power BI (Interactive dashboard)
-
-Jupyter Notebook
-
-Git & GitHub
-
-🔍 Exploratory Data Analysis (EDA)
-
-Performed using Python:
-
-Data Cleaning & Preprocessing
-
-Initial inspection using info() and describe()
-
-Filled missing Review Rating values using median by category
-
-Removed promo_code_used column due to redundancy with discount_applied
-
-Feature Engineering
-
-Categorized ages into:
-
-Young Adult
-
-Adult
-
-Middle-Aged
-
-Senior
-
-Created purchase_frequency_days from purchase frequency data
-
-🧮 Data Analysis Using SQL
-
-Key business questions answered using SQL:
-
-Revenue by Gender
-
-High-Spending Discount Customers
-
-Top 5 Products by Average Review Rating
-
-Shipping Type Comparison (Standard vs Express)
-
-Subscribed vs Non-Subscribed Customers
-
-Discount-Dependent Products
-
-Customer Segmentation
-
-New
-
-Returning
-
-Loyal
-
-Top 3 Products per Category
-
-Repeat Buyers vs Subscription Relationship
-
-Revenue Contribution by Age Group
-
-📈 Power BI Dashboard
-
+## 📈 Power BI Dashboard
 An interactive Power BI dashboard was created to visualize:
+- Customer demographics
+- Revenue by category, gender, and age group
+- Subscription behavior
+- Payment methods and shipping preferences
 
-Customer distribution
+---
 
-Revenue by category, gender, and age group
+## 💡 Business Recommendations
+- Improve subscription value to increase adoption
+- Focus on loyal customers with reward programs
+- Optimize discount strategies
+- Develop targeted marketing campaigns by gender
 
-Subscription vs non-subscription trends
-
-Payment methods and shipping preferences
-
-Discount and promotional impact
-
-💡 Business Recommendations
-1️⃣ Subscription Strategy Optimization
-
-Insights
-
-Non-subscribers generate higher total revenue due to volume
-
-Average spend is similar for both groups
-
-Recommendations
-
-Improve subscription value (exclusive deals, free express shipping)
-
-Target high-spending non-subscribers
-
-Introduce tiered subscription plans
+---
