@@ -56,7 +56,7 @@ This project uses Python, SQL, and Power BI for end-to-end data analysis and vis
 
 ## 📈 Power BI Dashboard
 
-![Power_BI_Dashboard](Screenshot2026-10-29171118.png)
+![Power_BI_Dashboard](dashboard.png)
 
 An interactive Power BI dashboard was created to visualize:
 - Customer demographics
